@@ -6,7 +6,7 @@ smallest = None
 while True:
 
     #get input and store it to inp
-    inp = raw_input("Enter a number: ")
+    inp = input("Enter a number: ")
 
     #filter/compare it using if condition
     if inp == "done" : break
